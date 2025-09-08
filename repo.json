@@ -1,16 +1,9 @@
 {
-  "name": "عرب سيد | ArabSeed",
-  "author": "اسمك",
-  "language": "ar",
-  "version": "1.0",
-  "sources": [
-    {
-      "name": "عرب سيد",
-      "type": "all",
-      "api": "https://raw.githubusercontent.com/mohamed-elmasry17/arabseed-masry/main/sources/arabseed.json",
-      "iconUrl": "https://a.asd.homes/main1/wp-content/uploads/2023/04/cropped-Logo-1-32x32.png",
-      "isNsfw": false,
-      "description": "مشاهدة أفلام و مسلسلات عربية من عرب سيد مباشرة في CloudStream"
-    }
+  "name": "ArabSeed",
+  "repoUrl": "https://raw.githubusercontent.com/mohamed-elmasry17/arabseed-masry/main/repo.json",
+  "iconUrl": "https://a.asd.homes/main1/wp-content/uploads/2023/04/cropped-Logo-1-32x32.png",
+  "authors": ["mohamed-elmasry17"],
+  "plugins": [
+    "https://raw.githubusercontent.com/mohamed-elmasry17/arabseed-masry/main/sources/arabseed.json"
   ]
 }
