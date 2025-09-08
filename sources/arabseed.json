@@ -1,57 +1,11 @@
 {
-  "name": "عرب سيد",
-  "type": "json",
-  "apiVersion": "3",
-  "iconUrl": "https://a.asd.homes/main1/wp-content/uploads/2023/04/cropped-Logo-1-32x32.png",
+  "name": "ArabSeed",
   "version": "1.0",
-  "description": "مصدر أفلام ومسلسلات من عرب سيد - ArabSeed",
-  "catalogs": [
-    {
-      "name": "أفلام",
-      "path": "/movies/",
-      "type": "movie",
-      "genre": "movies"
-    },
-    {
-      "name": "مسلسلات",
-      "path": "/tv/",
-      "type": "series",
-      "genre": "series"
-    }
-  ],
-  "search": {
-    "path": "/search/",
-    "method": "GET",
-    "queryParam": "q",
-    "results": [
-      {
-        "title": "div.posters a@title",
-        "url": "div.posters a@href",
-        "image": "div.posters img@data-src",
-        "type": "div.kqopt span@text"
-      }
-    ]
-  },
-  "detail": {
-    "title": "h1.entry-title",
-    "image": "div.poster img@src",
-    "plot": "div.sheader p@text",
-    "cast": "div.sheader a[href*='/cast/']@text",
-    "tags": "div.genres a@text",
-    "year": "div.date@text",
-    "episodes": [
-      {
-        "title": "div.episodetitle a@text",
-        "url": "div.episodetitle a@href",
-        "image": "div.episode-thumb img@data-src"
-      }
-    ],
-    "links": [
-      {
-        "url": "div.framer iframe@src",
-        "quality": "HD",
-        "host": "مجهول"
-      }
-    ]
-  }
+  "language": "ar",
+  "type": "all",
+  "iconUrl": "https://a.asd.homes/main1/wp-content/uploads/2023/04/cropped-Logo-1-32x32.png",
+  "nsfw": false,
+  "description": "مشاهدة أفلام و مسلسلات عربية من موقع عرب سيد",
+  "authors": ["mohamed-elmasry17"],
+  "pluginFile": "https://raw.githubusercontent.com/mohamed-elmasry17/arabseed-masry/main/plugins/arabseed.cs3"
 }
